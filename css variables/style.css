@@ -1,0 +1,16 @@
+:root {
+  --main-color: rgb(121, 11, 255);
+  --padding-size: 10px;
+  --txt-color:rgb(255, 248, 188);
+}
+.container {
+
+  background-color: var(--main-color);
+  padding: var(--padding-size);
+  border: 1px dotted rgb(36, 0, 0);
+  color:var(--txt-color);
+  font-weight: bold;
+  width: 200px;
+  margin: 20px auto;
+  text-align: center;
+}
